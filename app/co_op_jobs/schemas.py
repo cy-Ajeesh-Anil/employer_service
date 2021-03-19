@@ -1,7 +1,7 @@
 from app import ma, db
 from marshmallow import post_load, fields, validate
 
-from .models import CoOpJob
+from in_models import CoOpJob
 from .services import CoOpJobService
 
 

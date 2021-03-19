@@ -1,7 +1,7 @@
 from app import db
 from typing import List
 
-from .models import CoOpJob
+from in_models import CoOpJob
 
 
 class CoOpJobService:

@@ -17,7 +17,7 @@ manager = Manager(app)
 
 @manager.command
 def run():
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
 
 
 manager.add_command('db', MigrateCommand)
